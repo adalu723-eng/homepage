@@ -1,0 +1,221 @@
+body {
+    background-color: #fff;
+    font-family: "Calisto MT", Georgia, serif;
+    font-size: 0.85rem;
+    color: #2C3947;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.navbar-color {
+    background-color: #2C3947 !important;
+}
+
+.nav-text {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.nav-text:hover {
+    background-color: #EEEEEE !important;
+    color: #2C3947;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.header {
+    background-color: #E8EDF2;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.greeting-text {
+    font-size: 1.4rem;
+    color: #547A95;
+    margin-bottom: 0.8rem;
+}
+
+.name-title {
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: -2px;
+    margin-bottom: 1rem;
+    color: #2C3947;
+}
+
+.sub-text {
+    font-size: 1.5rem;
+    color: #547A95;
+    max-width: 1200px;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 1.4rem !important;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    color: #2C3947;
+}
+
+.highlight-link {
+    text-decoration: none;
+    color: #2C3947;
+    box-shadow: inset 0 -0.5rem 0 0 #E2CCA4;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.highlight-link:hover {
+    box-shadow: inset 0 -1.5rem 0 0 #C2A56D;
+    font-weight: bold;
+    color: #fff;
+}
+
+.badge1 {
+    background-color: #D9EAFD !important;
+    font-family: "Consolas", Georgia, serif !important;
+    font-size: 0.85rem !important;
+    color: #111827 !important;
+    padding: 0.4rem 0.6rem;
+    margin-top: 0.2rem;
+}
+
+.badge1:hover {
+    color: #fff !important;
+    background-color: #547A95 !important;
+}
+
+.badge2 {
+    background-color: #F8EDE3 !important;
+    font-family: "Consolas", Georgia, serif !important;
+    font-size: 0.85rem !important;
+    color: #111827 !important;
+    padding: 0.4rem 0.6rem;
+    margin-top: 0.2rem;
+}
+
+.badge2:hover {
+    color: #fff !important;
+    background-color: #C2A56D !important;
+}
+
+.experience-card {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.experience-card:hover {
+    background-color: #F8F9FA;
+    box-shadow: 0 10px 30px -15px rgba(44, 57, 71, 0.15);
+    border-color: rgba(84, 122, 149, 0.1);
+}
+
+.date-column {
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.05rem;
+    margin-top: 0.05rem;
+    padding-left: 1rem;
+}
+
+.role-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.arrow {
+    display: inline-block;
+    transition: transform 0.2s ease-out;
+    font-size: 0.8rem;
+}
+
+.arrow:hover {
+    transform: translate(1px, -2.5px);
+    color: #fff;
+}
+
+.experience-desc {
+    font-size: 1rem !important;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.icon-link {
+    font-size: 1.8rem;
+    color: #B0CAE6;
+    margin: 0 1.5rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.icon-link:hover {
+    color: #2C3947;
+    transform: translate(0, -5px);
+}
+
+.hobby-card {
+    border-radius: 24px;
+    transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hobby-card:hover {
+    transform: translateY(-5px) scale(1.01);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.color-blue {
+    background-color: #D9EAFD;
+    color: #2C3947;
+}
+
+.color-beige {
+    background-color: #F8EDE3;
+    color: #2C3947;
+}
+
+.color-light {
+    background-color: #E5E1DA;
+    color: #2C3947;
+}
+
+.color-grey {
+    background-color: #E8EBEE;
+    color: #2C3947;
+}
+
+.hobby-tag {
+    background-color: rgba(44, 57, 71, 0.1);
+    color: #2C3947;
+    font-size: 0.75rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 60px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.modal-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.tip {
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 0.8rem;
+    border-left: 4px solid #6A87A1;
+    line-height: 1.5;
+}
